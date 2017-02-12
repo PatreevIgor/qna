@@ -11,7 +11,7 @@ RSpec.describe QuestionsController, type: :controller do
 	end
 	it 'renders index view' do
 		get :index
-		expect(responce).to render_template :index
+		expect(response).to render_template :index
 	end
 	end
 end
